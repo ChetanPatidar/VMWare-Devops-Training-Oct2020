@@ -37,6 +37,9 @@ docker container ls -a
 ## What's Going On In Containers: CLI Process Monitoring
 
 docker container run -d --name nginx nginx
+or 
+docker container run -d -p91:80 --name nginx_chetan nginx
+                                 name of Container  Container Image name 
 
 docker container run -d --name mysql -e MYSQL_RANDOM_ROOT_PASSWORD=true mysql
 
